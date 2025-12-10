@@ -1,0 +1,38 @@
+body{
+background-color: rgb(138, 138, 152);
+}
+.registracia{
+   display: flex;           
+    flex-direction: column;   
+    gap: 15px;
+    width: 250px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: lightblue;
+    border-radius: 25px;
+    margin-top: 150px;
+    input{
+      height: 30px;
+        border: none;
+        border-radius: 20px;
+    }
+    button{
+       height: 25px;
+        border-radius: 25px;
+       background-color: rgba(128, 128, 124, 0.881);
+       font-weight: bold;
+       color: rgb(255, 255, 255);
+       &:hover {
+        background-color: black;
+        transition: 0.5s;
+       }
+       border: none;
+       cursor: pointer;
+    }
+}
+label{
+    font-style: normal;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
